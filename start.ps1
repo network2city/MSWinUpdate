@@ -1,1 +1,1 @@
-Start-Process powershell.exe -Verb RunAs -ArgumentList (‘-noprofile -noexit -file “{https://raw.githubusercontent.com/network2city/MSWinUpdate/main/myPSScript.ps1}” -elevated’ -f ($myinvocation.MyCommand.Definition))
+Start-Process powershell.exe -Verb RunAs -ArgumentList (‘-noexit -file “{https://raw.githubusercontent.com/network2city/MSWinUpdate/main/myPSScript.ps1}” -elevated’ -f ($myinvocation.MyCommand.Definition))
