@@ -1,4 +1,4 @@
-Set-ExecutionPolicy Unrestricted
+Set-ExecutionPolicy Bypass -force
 
 Enable-PSRemoting -force
 
