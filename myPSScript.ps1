@@ -1,3 +1,5 @@
+Set-ExecutionPolicy Unrestricted
+
 Enable-PSRemoting -force
 
 Get-NetConnectionProfile | Set-NetConnectionProfile -NetworkCategory Private
