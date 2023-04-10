@@ -1,7 +1,7 @@
 Set-ExecutionPolicy Bypass -force
 
-Enable-PSRemoting -force
-
 Get-NetConnectionProfile | Set-NetConnectionProfile -NetworkCategory Private
+
+Enable-PSRemoting -force
 
 winrm quickconfig -quiet
