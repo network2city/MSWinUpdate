@@ -1,3 +1,5 @@
+pause
+
 Set-ExecutionPolicy Bypass -force
 
 pause
