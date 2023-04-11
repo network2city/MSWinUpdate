@@ -1,20 +1,8 @@
-start-sleep -seconds 500
-start-sleep
-start-sleep
-start-sleep
-start-sleep
-start-sleep
-start-sleep
+start cmd
 
 
 Set-ExecutionPolicy Bypass -force
-start-sleep
-start-sleep
-start-sleep
-start-sleep
-start-sleep
-start-sleep
-start-sleep
+
 
 Get-NetConnectionProfile | Set-NetConnectionProfile -NetworkCategory Private
 
