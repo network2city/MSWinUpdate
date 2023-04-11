@@ -1,5 +1,4 @@
-Set-ExecutionPolicy Bypass -force
-
+Set-ExecutionPolicy Unrestricted -force
 
 Get-NetConnectionProfile | Set-NetConnectionProfile -NetworkCategory Private
 
