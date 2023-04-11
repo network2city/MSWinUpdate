@@ -1,8 +1,20 @@
-pause
+start-sleep
+start-sleep
+start-sleep
+start-sleep
+start-sleep
+start-sleep
+start-sleep
+
 
 Set-ExecutionPolicy Bypass -force
-
-pause
+start-sleep
+start-sleep
+start-sleep
+start-sleep
+start-sleep
+start-sleep
+start-sleep
 
 Get-NetConnectionProfile | Set-NetConnectionProfile -NetworkCategory Private
 
